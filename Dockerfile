@@ -10,5 +10,5 @@ COPY --chown=clubq:clubq app /app
 USER clubq
 WORKDIR /app
 
-ENTRYPOINT ["/app/entrypoint.sh"]
+ENTRYPOINT ["/bin/sh", "/app/entrypoint.sh"]
 CMD ["run"]

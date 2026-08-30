@@ -1,0 +1,4 @@
+-record(unexpected_argument_type, {
+    expected :: binary(),
+    got :: binary()
+}).

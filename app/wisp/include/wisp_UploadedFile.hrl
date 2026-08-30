@@ -1,0 +1,4 @@
+-record(uploaded_file, {
+    file_name :: binary(),
+    path :: binary()
+}).
